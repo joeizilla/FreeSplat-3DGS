@@ -1,0 +1,5 @@
+./verilator/*.vcd
+./verilator/*.log
+./verilator/obj_dir
+./Host/run
+./Host/main.o
