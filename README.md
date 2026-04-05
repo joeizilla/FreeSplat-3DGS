@@ -94,7 +94,7 @@ Located in: Host/
 - icssl_GS.h: Rendering and display control
 - icssl_demo_cam_ctrl.h: Camera control (keyboard + mouse interaction)
 
-▶️ Execution Scripts
+▶️ Execution Scripts 
 🔹 01_demo_cam_ctrl.sh
   - Interactive mode
   - Control camera using keyboard and mouse.
