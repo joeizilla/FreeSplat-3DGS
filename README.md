@@ -58,6 +58,7 @@ Instead, we provide:
 ## ▶️ How to Run Simulation
 
 cd verilator
+
 ./rasterize.sh
 
 After execution, rendered images will be generated.
@@ -76,7 +77,9 @@ is generated using Vivado and can be directly programmed onto Xilinx Alveo U200
 
 
 ▶️ Usage Flow
+
 Program FPGA with the provided bitstream
+
 Run the host application (see next section)
 
 
