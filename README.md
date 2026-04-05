@@ -88,11 +88,11 @@ Run the host application (see next section)
 
 Located in: Host/
 
-📂 Contents
-main.cpp: Main control program
-icssl_xdma.h: PCIe XDMA low-level interface
-icssl_GS.h: Rendering and display control
-icssl_demo_cam_ctrl.h: Camera control (keyboard + mouse interaction)
+📂 Contents 
+- main.cpp: Main control program
+- icssl_xdma.h: PCIe XDMA low-level interface
+- icssl_GS.h: Rendering and display control
+- icssl_demo_cam_ctrl.h: Camera control (keyboard + mouse interaction)
 
 ▶️ Execution Scripts
 🔹 01_demo_cam_ctrl.sh
