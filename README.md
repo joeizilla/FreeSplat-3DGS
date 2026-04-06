@@ -16,6 +16,23 @@ This repository provides a **runnable demonstration** of our FPGA-based 3D Gauss
 
 The Verilator simulation environment is located in: verilator/
 
+## Verilator-Based RTL Simulation
+
+Verilator is used to translate the Verilog RTL into a cycle-accurate C++ model, enabling high-performance simulation within a C++ environment. The simulation framework allows direct interaction between the host program and the RTL model, while also supporting waveform generation (e.g., `.vcd`) for debugging and analysis.
+
+In this project, the Verilator model incorporates a system-level simulation environment that closely emulates the FPGA execution context, including:
+
+1. **AXI-Lite Control Path Simulation**  
+   The host program emulates a CPU and issues AXI-Lite transactions to configure and control the hardware modules.
+
+2. **Host-Memory-Based DRAM Emulation**  
+   System DRAM is modeled using host memory, serving as a functional replacement for on-board FPGA DRAM.
+
+3. **AXI-MM Data Interface Simulation**  
+   The RTL communicates with the emulated DRAM through an AXI Memory-Mapped (AXI-MM) interface, mimicking real FPGA memory transactions.
+
+This setup enables functional verification of the full dataflow and control path before deployment on actual FPGA hardware.
+
 ## 📂 Contents
 
 - `dataset/`  
